@@ -1,5 +1,7 @@
 = MERKLETREES =
 
+[![Build Status](https://travis-ci.org/zhenyatnk/merkletrees.svg?branch=master)](https://travis-ci.org/zhenyatnk/merkletrees)
+
 == Setting Up the Environment ==
 
 Need iinstall openssl library, (for cmake need add variables OPENSSL_ROOT_DIR to bash)
