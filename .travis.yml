@@ -5,14 +5,7 @@ compiler:
   - clang
 
 before_install:
-  #- brew update
-  #- brew upgrade pyenv
-  #- eval "$(pyenv init -)"
-  #- pyenv install 2.7.6
-  #- pyenv global 2.7.6
-  #- pyenv rehash
-  #- pip install cpp-coveralls
-  #- pyenv rehash
+  - brew install openssl
   
 script:
     - mkdir .build
