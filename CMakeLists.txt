@@ -25,6 +25,9 @@ set(CMAKE_CONFIGURATION_TYPES
 
 project(${_project_name} C CXX)
 
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 string(TOUPPER ${PROJECT_NAME} _pnu) 
 
 find_package(Threads REQUIRED)
