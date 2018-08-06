@@ -1,9 +1,9 @@
-#include <templateproj/core/BaseExceptions.hpp>
+#include <merkletrees/core/BaseExceptions.hpp>
 
 #include <gtest/gtest.h>
 
 //--------------------------------------------------
-using namespace templateproj::core;
+using namespace merkletrees::core;
 
 class sample_test
     :public ::testing::Test

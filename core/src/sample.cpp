@@ -1,7 +1,10 @@
-#include <templateproj/core/BaseExceptions.hpp>
+#include <merkletrees/core/BaseExceptions.hpp>
+#include <openssl/opensslv.h>
 
-namespace templateproj {
+namespace merkletrees {
 namespace core {
+    
+    
 
 }
 }

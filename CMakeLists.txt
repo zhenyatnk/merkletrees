@@ -29,6 +29,13 @@ string(TOUPPER ${PROJECT_NAME} _pnu)
 
 find_package(Threads REQUIRED)
 
+find_package(OpenSSL REQUIRED)
+
+if(OPENSSL_FOUND)
+    set(OPENSSL_USE_STATIC_LIBS TRUE)
+endif()
+
+
 enable_testing()
 
 configure_file("${CMAKE_CURRENT_LIST_DIR}/version/version.hpp.cmake.in"
